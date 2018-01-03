@@ -93,6 +93,8 @@ console.log('%chello %cworld', 'color:#696969;', 'color:red;font-size:16px;');
 ```
 ![](https://raw.githubusercontent.com/diamont1001/funny-console/master/docs/imgs/log-hello-world-2.png)
 
+有了样式的支持，可以想象有空间就大了，可以随心所欲的把输出弄的五花八门了，下面我们来看看它支持哪些样式吧。
+
 #### 支持的样式
 
 > Quite a few CSS properties are supported by this styling; you should experiment and see which ones prove useful.
