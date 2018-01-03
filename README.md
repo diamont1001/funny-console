@@ -137,6 +137,7 @@ console.count('label_2'); // label_2: 2
 
 `console.groupCollapsed` 跟 `console.group` 差不多，只是该方法输出的时候会默认折叠，在一些数据量大的情况下，可使用该方法输出，以至版面不会太长造成干扰。
 
+
 ### 6. `console.table`
 
 这是个有逼格的输出，会把输出的对象以表格的形式输出。
@@ -144,7 +145,16 @@ console.count('label_2'); // label_2: 2
 ![](https://raw.githubusercontent.com/diamont1001/funny-console/master/docs/imgs/table.png)
 
 
-### 清屏：`console.clear`
+### 7. `console.time / console.timeEnd`
+
+
+### 8. `console.profile / console.profileEnd`
+
+
+### 9. `console.trace`
+
+
+### 10. 清屏：`console.clear`
 ![](https://raw.githubusercontent.com/diamont1001/funny-console/master/docs/imgs/clear.png)
 
 
