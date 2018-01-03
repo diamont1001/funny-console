@@ -36,7 +36,7 @@ $npm install funny-console --save
 // 引入库
 require('funny-console');
 // 显示图片
-console.img('https://raw.githubusercontent.com/diamont1001/funny-console/master/docs/imgs/flower.gif', 256, 208)；
+console.img('https://raw.githubusercontent.com/diamont1001/funny-console/master/docs/imgs/flower.gif', 256, 208);
 ```
 
 效果如下：
@@ -46,7 +46,7 @@ console.img('https://raw.githubusercontent.com/diamont1001/funny-console/master/
 // 显示图片，加背景颜色
 console.img('https://raw.githubusercontent.com/diamont1001/funny-console/master/docs/imgs/flower.gif', 256, 208, {
   bgColor: '#00FF00'
-})；
+});
 ```
 
 效果如下：
