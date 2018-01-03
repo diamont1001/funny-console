@@ -40,7 +40,6 @@ require('funny-console');
 console.img('https://raw.githubusercontent.com/diamont1001/funny-console/master/docs/imgs/flower.gif', 256, 208);
 ```
 
-效果如下：
 ![](https://raw.githubusercontent.com/diamont1001/funny-console/master/docs/imgs/img.gif)
 
 ```js
@@ -50,7 +49,6 @@ console.img('https://raw.githubusercontent.com/diamont1001/funny-console/master/
 });
 ```
 
-效果如下：
 ![](https://raw.githubusercontent.com/diamont1001/funny-console/master/docs/imgs/img-bg.gif)
 
 
