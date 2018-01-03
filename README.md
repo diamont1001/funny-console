@@ -40,7 +40,7 @@ console.img('https://raw.githubusercontent.com/diamont1001/funny-console/master/
 ```
 
 效果如下：
-![]()
+![](https://raw.githubusercontent.com/diamont1001/funny-console/master/docs/imgs/img.gif)
 
 ```js
 // 显示图片，加背景颜色
@@ -50,6 +50,6 @@ console.img('https://raw.githubusercontent.com/diamont1001/funny-console/master/
 ```
 
 效果如下：
-![]()
+![](https://raw.githubusercontent.com/diamont1001/funny-console/master/docs/imgs/img-bg.gif)
 
 未完，待续……
