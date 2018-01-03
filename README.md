@@ -30,6 +30,7 @@
   - opt.bgColor：背景颜色，同 CSS 的 `background-color`
 
 ```bash
+# 库安装
 $npm install funny-console --save
 ```
 
@@ -84,6 +85,13 @@ console.log('%f', 3/10); // 输出 0.3
 console.log('%chello world', 'font-size:16px;color:white;padding: 20px 50px;background-image: -webkit-radial-gradient(hsla(120,70%,60%,.9),hsla(360,60%,60%,.9))');
 ```
 ![](https://raw.githubusercontent.com/diamont1001/funny-console/master/docs/imgs/log-hello-world.png)
+
+也可以连着来：
+
+```js
+console.log('%chello %cworld', 'color:#696969;', 'color:red;font-size:16px;');
+```
+![](https://raw.githubusercontent.com/diamont1001/funny-console/master/docs/imgs/log-hello-world-2.png)
 
 #### 支持的样式
 
