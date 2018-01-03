@@ -56,7 +56,7 @@ console.img('https://raw.githubusercontent.com/diamont1001/funny-console/master/
 ### 2. 常用输出 `log/warn/error`
 
 - `console.log`: 输出一般信息
-- `console.dir`: 输出一般信息（与 console.log 不同的地方在于，输出的是 html 对象时，log 输出的是 html 结构，dir 输出的是对象形式）
+- `console.dir`: 输出一般信息（与 `log` 不同的地方在于，输出的是 DOM 对象时，log 输出的是 html 结构，dir 输出的是对象形式）
 - `console.wran`: 输出警告信息（黄色警告，作为程序员，是对该类信息无视的 ^_^）
 - `console.error`: 输出错误信息（红色警告）
 
