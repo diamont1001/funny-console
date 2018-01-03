@@ -103,6 +103,60 @@ console.log('%chello %cworld', 'color:#696969;', 'color:red;font-size:16px;');
 具体结果看这里吧 [console.log 支持的样式汇总](https://github.com/diamont1001/funny-console/blob/master/docs/css.md)
 
 
+### 3. `console.assert`
+
+跟 `console.log` 差不多，只是 `console.assert` 多了个判断，接收至少两个参数，当第一个参数值为 `false` 的时候，它才会输出，输出的是第二个参数，同样的，也支持样式。
+
+```js
+console.assert(1===1, 'sb'); // 不会输出
+console.assert(1===2, 'sb'); // 断言失败，所以会输出 sb
+```
+
+### 4. `console.count`
+
+console.count([label])
+
+输出代码执行到该行的次数，可以通过 `label` 参数来区分计数器。
+
+```js
+console.count('label_1'); // label_1: 1
+console.count('label_1'); // label_1: 2
+console.count('label_1'); // label_1: 3
+console.count('label_2'); // label_2: 1
+console.count('label_1'); // label_1: 4
+console.count('label_2'); // label_2: 2
+```
+
+### 5. 分组输出 `console.group / console.groupEnd / console.groupCollapsed`
+
+把输出的内容产生不同的层级嵌套关系（分组），每一个 `console.group` 会增加一层嵌套，相反要减少一层嵌套可以使用 `console.groupEnd` 方法。
+
+```js
+console.log('这是第一层');
+console.group();
+console.log('这是第二层');
+console.log('依然第二层');
+console.group();
+console.log('第三层了');
+console.groupEnd();
+console.log('回到第二层');
+console.groupEnd();
+console.log('回到第一层');
+```
+
+![](https://raw.githubusercontent.com/diamont1001/funny-console/master/docs/imgs/group.png)
+
+#### `console.groupCollapsed`
+
+`console.groupCollapsed` 跟 `console.group` 差不多，只是该方法输出的时候会默认折叠，在一些数据量大的情况下，可使用该方法输出，以至版面不会太长造成干扰。
+
+### 6. `console.table`
+
+这是个有逼格的输出，会把输出的对象以表格的形式输出。
+
+![](https://raw.githubusercontent.com/diamont1001/funny-console/master/docs/imgs/table.png)
+
+
 ### 清屏：`console.clear`
 ![](https://raw.githubusercontent.com/diamont1001/funny-console/master/docs/imgs/clear.png)
 
