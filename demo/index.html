@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+    <meta name="description" content="demo for funny-console">
+  <title>Demo for funny-console</title>
+  <style>
+      body{
+        font-family: "Microsoft YaHei";
+      }
+  </style>
+  <script type="text/javascript" src="../index.js"></script>
+</head>
+<body>
+    <h1>Funny Console</h1>
+    <h2>Base</h2>
+    <input type="button" value="clear" onclick="console.clear()" /><hr/>
+
+    <h2>console.img</h2>
+    <input type="button" value="240*320" onclick="console.img('http://sjbz.fd.zol-img.com.cn/t_s240x320c/g5/M00/07/03/ChMkJljlp7mIVS74AAZe51VcP4AAAbZEQJ0SDoABl7_286.jpg', 240, 320);" />
+    <input type="button" value="zoom 0.5" onclick="console.img('http://sjbz.fd.zol-img.com.cn/t_s240x320c/g5/M00/07/03/ChMkJljlp7mIVS74AAZe51VcP4AAAbZEQJ0SDoABl7_286.jpg', 120, 160);" />
+    <input type="button" value="zoom 1.5" onclick="console.img('http://sjbz.fd.zol-img.com.cn/t_s240x320c/g5/M00/07/03/ChMkJljlp7mIVS74AAZe51VcP4AAAbZEQJ0SDoABl7_286.jpg', 360, 480);" /><br/>
+
+    <input type="button" value="541*612" onclick="console.img('http://store.malaysiable.news/uploads/2/1A/21A7465979.jpeg', 541, 612, 'red');" />
+    <input type="button" value="zoom 0.5" onclick="console.img('http://store.malaysiable.news/uploads/2/1A/21A7465979.jpeg', 270, 306, 'red');" /><br/>
+
+    <input type="button" value="gif" onclick="console.img('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1487679947503&di=089b71b243d7805692f6af9fea7247ba&imgtype=0&src=http%3A%2F%2Fimg3.duitang.com%2Fuploads%2Fblog%2F201408%2F20%2F20140820122446_kHVcj.gif', 240, 240);" />
+    <input type="button" value="bg color" onclick="console.img('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1487679947503&di=089b71b243d7805692f6af9fea7247ba&imgtype=0&src=http%3A%2F%2Fimg3.duitang.com%2Fuploads%2Fblog%2F201408%2F20%2F20140820122446_kHVcj.gif', 240, 240, {bgColor: '#00ff00'})" /><hr/>
+
+
+</body>
+</html>

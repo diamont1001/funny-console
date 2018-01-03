@@ -1,0 +1,36 @@
+{
+  "name": "funny-console",
+  "version": "1.0.0",
+  "description": "funny console in browser's dev-tools just like Chrome and Safari.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "eslint index.js",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diamont1001/funny-console.git"
+  },
+  "keywords": [
+    "console.log",
+    "console",
+    "Chrome",
+    "Safari",
+    "dev-tools"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diamont1001/funny-console/issues"
+  },
+  "homepage": "https://github.com/diamont1001/funny-console#readme",
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-jr": "^1.0.4"
+  },
+  "dependencies": {}
+}

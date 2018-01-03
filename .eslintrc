@@ -1,0 +1,12 @@
+{
+    "extends": [
+        "jr"
+    ],
+    "rules": {
+      "no-proto": 0,
+      "no-console": 0
+    },
+    "globals": {
+      "__DEV__": true
+    }
+}
