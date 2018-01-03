@@ -131,19 +131,6 @@ console.count('label_2'); // label_2: 2
 
 把输出的内容产生不同的层级嵌套关系（分组），每一个 `console.group` 会增加一层嵌套，相反要减少一层嵌套可以使用 `console.groupEnd` 方法。
 
-```js
-console.log('这是第一层');
-console.group();
-console.log('这是第二层');
-console.log('依然第二层');
-console.group();
-console.log('第三层了');
-console.groupEnd();
-console.log('回到第二层');
-console.groupEnd();
-console.log('回到第一层');
-```
-
 ![](https://raw.githubusercontent.com/diamont1001/funny-console/master/docs/imgs/group.png)
 
 #### `console.groupCollapsed`
