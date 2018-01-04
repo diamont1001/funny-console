@@ -27,7 +27,7 @@
 - width: 图片展示大小 width，默认为 200
 - height：图片展示大小 height，默认为 200
 - opt：可选参数
-  - opt.bgColor：背景颜色，同 CSS 的 `background-color`
+  (opt.bgColor：背景颜色，同 CSS 的 `background-color`)
 
 ```bash
 # 库安装
@@ -147,15 +147,72 @@ console.count('label_2'); // label_2: 2
 
 ### 7. `console.time / console.timeEnd`
 
+- `console.time(name)`: 计时开始
+- `console.timeEnd(name)`: 计时结束并输出计时时间
+
+精度为 `ms` 级别（注意不是 1ms，具体要看浏览器的实现）
+
+![](https://raw.githubusercontent.com/diamont1001/funny-console/master/docs/imgs/time.png)
+
 
 ### 8. `console.profile / console.profileEnd`
+
+性能分析所用，利用该方法我们可以很方便地通过 Profiles 面板看到需要监控的代码的运行性能。
+
+但是，据我了解，这个东东在 Chrome 58 版本之后就用不了了，具体看「[这里](https://bugs.chromium.org/p/chromium/issues/detail?id=675734)」，至于是 BUG 还是故意的，就不知道了。
+
+反正从 58 版本开始，profile 面板也更名为 memory，而增加了 performence 面板，可以通过这个面板工具来调试更多的性能相关的东西。
+具体可以参考：[Chrome DevTools: JavaScript CPU Profiling in Chrome 58](https://developers.google.com/web/updates/2016/12/devtools-javascript-cpu-profile-migration)
 
 
 ### 9. `console.trace`
 
+调用堆栈跟踪调试，具体看下面效果。
+
+![](https://raw.githubusercontent.com/diamont1001/funny-console/master/docs/imgs/trace.png)
+
 
 ### 10. 清屏：`console.clear`
+
 ![](https://raw.githubusercontent.com/diamont1001/funny-console/master/docs/imgs/clear.png)
 
 
-未完，待续……
+## 控制台其他有趣介绍
+
+除了上面介绍的一些命令以外，其实控制台还提供了很多好玩的东西，为页面开发调试提供了极大的方便。
+
+| 命令 | 功能 |
+| --- | --- |
+| $ | document.querySelector，相当于在控制台中，原生支持了 jQuery 的选择器 |
+| $$ | document.querySelectorAll |
+| $_ | 上一个表达式的值 |
+| $0 - $4 | 最近 5 个 Elements 面板选中的 DOM 元素（$0 为最近一个） |
+| copy | 将在控制台获取到的内容复制到剪贴板，比如 `copy(document.body)` |
+| dir | console.dir 的缩写 |
+| keys | 对象的键名列表, 返回以键名为元素组成的数组 |
+| values | 对象的值列表, 返回对象所有值组成的数组 |
+
+
+### 1. `$`、`$$` 和 `$_`
+
+![](https://raw.githubusercontent.com/diamont1001/funny-console/master/docs/imgs/query.png)
+
+
+### 2. `copy`
+
+将在控制台获取到的内容复制到剪贴板。
+
+![](https://raw.githubusercontent.com/diamont1001/funny-console/master/docs/imgs/copy.png)
+
+
+### 3. `keys` 和 `values`
+
+`keys` 和 `values` 可以快速输出对象的「键」和「值」。
+
+![](https://raw.githubusercontent.com/diamont1001/funny-console/master/docs/imgs/keys-values.png)
+
+
+## 附录
+
+- [https://developer.mozilla.org/en-US/docs/Web/API/console](https://developer.mozilla.org/en-US/docs/Web/API/console)
+
