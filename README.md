@@ -220,7 +220,7 @@ console.count('label_2'); // label_2: 2
 ![](https://raw.githubusercontent.com/diamont1001/funny-console/master/docs/imgs/keys-values.png)
 
 
-## 实战
+## 线上栗子
 
 最后来个彩弹，这个网站 [http://jovilab.sinaapp.com/](http://jovilab.sinaapp.com/) 的命令行，是使用 `console.log` 做的一个「2048」小游戏，在 Dev-Tools 里玩游戏，你试过吗，哈哈！
 
