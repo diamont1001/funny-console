@@ -52,4 +52,4 @@
 | direction | ✕ |
 
 
-其他欢迎 PR。
+其他欢迎 [PR](https://github.com/diamont1001/funny-console/pulls)。
