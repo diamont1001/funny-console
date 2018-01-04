@@ -172,7 +172,14 @@ console.count('label_2'); // label_2: 2
 ![](https://raw.githubusercontent.com/diamont1001/funny-console/master/docs/imgs/trace.png)
 
 
-### 10. 清屏：`console.clear`
+### 10. `monitor` 和 `unmonitor`
+
+`monitor` 可以监控指定函数的被调用情况。
+
+![](https://raw.githubusercontent.com/diamont1001/funny-console/master/docs/imgs/monitor.png)
+
+
+### 11. 清屏：`console.clear`
 
 ![](https://raw.githubusercontent.com/diamont1001/funny-console/master/docs/imgs/clear.png)
 
