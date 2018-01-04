@@ -100,7 +100,8 @@ console.log('%chello %cworld', 'color:#696969;', 'color:red;font-size:16px;');
 > Quite a few CSS properties are supported by this styling; you should experiment and see which ones prove useful.
 
 从 [文档](https://developer.mozilla.org/en-US/docs/Web/API/Console) 上看到下面这句话，我瞬间奔溃了，好吧，还是得自己一个一个试咯。
-具体结果看这里吧 [console.log 支持的样式汇总](https://github.com/diamont1001/funny-console/blob/master/docs/css.md)
+
+结果看这里 [console.log 支持的样式汇总](https://github.com/diamont1001/funny-console/blob/master/docs/css.md)，都是我自己一个一个尝试出来的，不一定全，欢迎贡献 PR。
 
 
 ### 3. `console.assert`
