@@ -17,7 +17,8 @@
 | width/height | ✕ |
 | min-width/min-height/max-width/max-height | ✕ |
 | overflow | ✕ |
-| background/background-* | ✓ |
+| background | ✓ |
+| background-* | ✓ |
 | color | ✓ |
 | font-size | ✓ |
 | font-family | ✓ |
@@ -28,9 +29,9 @@
 | text-align | ✕ |
 | text-indent | ✕ |
 | text-shadow | ✓ |
-| text-decoration |  |
-| text-transform |  |
-| letter-spacing   |  |
+| text-decoration | ✓ |
+| text-transform | ✓ |
+| letter-spacing | ✓ |
 | opacity | ✕ |
 | visibility | ✕ |
 | box-sizing | ✕ |
@@ -45,11 +46,10 @@
 | white-space | ✕ |
 | vertical-align | ✕ |
 | outline | ✕ |
-| transition |  |
-| transform |  |
-| animation |  |
-| direction |  |
-| fill |  |
+| transition | ✕ |
+| transform | ✕ |
+| animation | ✕ |
+| direction | ✕ |
 
 
 其他欢迎 PR。
